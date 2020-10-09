@@ -2,7 +2,7 @@ public class Main
 {
    public static void main(String[] args)
    {
-     
+
      int count = 14;
 
      
@@ -41,7 +41,10 @@ public class Main
        boolean haveFiveFriends=true;
        boolean haveFiveControllers=true;
        if (haveFiveFriends && !haveFiveControllers);
-       System.out.println("you may have five friends over after you get four more controllers or else you can't play together on the two television screens.");
+       System.out.println("you may have five friends over after you get four more controllers for the playstation or whatever you call it, a ps4, or else you can't play together on the two television screens.");
+     
+
+     
      }
 
    }
