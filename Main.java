@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+
 public class Main
 {
    public static void main(String[] args)
@@ -33,18 +36,29 @@ public class Main
      }
      else
      {
-         System.out.println("After the condition of the grades being brought up and homework being done, you can play video games.");  
+        
        boolean ageIs=true;
        boolean mathGrade=false;
        if( ageIs || mathGrade );
-       System.out.println("If your age is 14 or up you can play the video games or if your math grade is brought up to over a 70%, you can play video games");
+       System.out.println("If your age is 14 or up you can play the video games or if your math grade is brought up to over a 70%, so now you can play video games");
+       System.out.println("After the condition of the grades being brought up and homework being done, you can play video games.");
        boolean haveFiveFriends=true;
        boolean haveFiveControllers=true;
        if (haveFiveFriends && !haveFiveControllers);
        System.out.println("you may have five friends over after you get four more controllers for the playstation or whatever you call it, a ps4, or else you can't play together on the two television screens.");
-     
+       Scanner scan = new Scanner(System.in);
 
-     
+   System.out.println("whats your name?");
+   String name = scan.next();
+   System.out.println(name);
+   System.out.println("Whats your age?");
+   int age = scan.nextInt();
+   System.out.println("what's your senior quote");
+   String quote = scan.next();
+   qoute += scan.next();
+   System.out.println("Thank you"+ name + "you are" + age + "years old");
+   System.out.println("and your senior qoute is" + quote);
+  
      }
 
    }
