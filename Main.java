@@ -55,7 +55,7 @@ public class Main
    int age = scan.nextInt();
    System.out.println("what's your senior quote");
    String quote = scan.next();
-   qoute += scan.next();
+    quote += scan.next();
    System.out.println("Thank you"+ name + "you are" + age + "years old");
    System.out.println("and your senior qoute is" + quote);
   
