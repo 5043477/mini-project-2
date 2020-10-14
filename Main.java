@@ -11,12 +11,7 @@ public class Main
  System.out.println("whats your name?");
  System.out.println("Bryson Whitmore");
      System.out.println("Whats your age?");
-     System.out.println("14");
-   System.out.println("what's your senior quote");
-   System.out.println(" Get good Grades to have a Good Life.");
-   System.out.println("Thank you"+ " Bryson Whitmore, " + "you are now" + " 14 " + "years old");
-   System.out.println("and your senior qoute is" + " Get good Grades to have a Good Life. ");
-   // 1. initialize the loop variable
+     // 1. initialize the loop variable
      int count = 14;
 
      // 2. test the loop variable
@@ -40,6 +35,10 @@ else
 {
    System.out.println("x is positive");
 }
+   System.out.println("what's your senior quote");
+   System.out.println(" Get good Grades to have a Good Life.");
+   System.out.println("Thank you"+ " Bryson Whitmore, " + "you are now" + " 14 " + "years old");
+   System.out.println("and your senior qoute is" + " Get good Grades to have a Good Life. ");
 //the next thing that you do is add a true/false idea into the mix to see if you can do one thing or if you can't do that one thing.
     boolean gradesBroughtUp = true;
      boolean playedVideoGames = false;
